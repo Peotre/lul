@@ -1,0 +1,76 @@
+/*Skills*/
+.white, .hover-white:hover {
+  color: #000 !important;
+  background-color: #F3F3F3 !important;
+}
+
+.indesign, .hover-grey:hover, .gray, .hover-gray:hover {
+  color: #000 !important;
+  background-color: #B34180 !important;
+}
+
+.illustrator, .hover-grey:hover, .gray, .hover-gray:hover {
+  color: #000 !important;
+  background-color: #F57B51 !important;
+}
+
+.photoshop, .hover-grey:hover, .gray, .hover-gray:hover {
+  color: #000 !important;
+  background-color: #125D98 !important;
+}
+
+.msOffice, .hover-grey:hover, .gray, .hover-gray:hover {
+  color: #000 !important;
+  background-color: #39A2DB !important;
+}
+
+.blender, .hover-grey:hover, .gray, .hover-gray:hover {
+  color: #000 !important;
+  background-color: #FFC947 !important;
+}
+
+.padding-small {
+  padding: 4px 8px !important;
+}
+
+.center {
+  text-align: center !important;
+  margin: 0;
+}
+}
+
+.wide {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0.25em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/*footer*/
+.footer-link {
+  font-family: 'gothambook', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/*Portfolio*/
+.is-relative {
+  position: relative;
+}
+
+.info_header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.info_header:hover {
+  opacity: 1;
+}

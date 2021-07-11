@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'gothambold';
+    src: url('/font/gotham-bold-webfont.woff2') format('woff2'),
+         url('/font/gotham-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('/font/gothambook-webfont.woff2') format('woff2'),
+         url('/font/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamblack';
+    src: url('/font/gotham-black-webfont.woff2') format('woff2'),
+         url('/font/gotham-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('/font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('/font/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+}
+.is-family-gothambold {
+  font-family: gothambold;
+
+}
+.is-family-gothambook {
+  font-family: gothambook;
+}
+
+.is-family-gothamblack {
+  font-family: gothamblack;
+}
+
+.is-family-montserratregular {
+  font-family: montserratregular;
+}
